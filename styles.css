@@ -1,0 +1,141 @@
+#container{
+    font-family: "Poppins";
+    display: flex;
+    flex-direction: column;
+    width: 1300px;
+    height: 1000px;
+    padding: 20px 45px
+}
+
+#heading{
+    text-align: center;
+}
+
+#heading h1{
+    font-weight: 200;
+}
+
+#container2{
+    display: flex;
+    flex-direction: row;
+    margin-top: 100px;
+    height: 1000px;
+    width: 1290px;
+}
+
+#container2 p{
+    color: hsl(229, 6%, 66%);
+}
+
+#supervisor{
+    margin: 100px 35px 0 1px;
+    width: 350px;
+    height: 250px;
+    padding: 10px 20px;
+    border-top-style: solid;
+    border-top-color: hsl(180, 62%, 55%);
+    border-radius: 10px;
+    border-width: 9px;
+    box-shadow:  3px 3px 5px 6px #ccc
+}
+
+#supervisor img{
+    margin-left: 250px;
+}
+
+#karma img{
+    margin-left: 250px;
+    margin-top: 45px;
+}
+
+#team img{
+    margin-left: 250px;
+    margin-top: 45px;
+}
+
+#calculator img{
+    margin-left: 250px;
+    margin-top: 45px;
+}
+
+span{
+    font-weight: 600;
+}
+
+#calculator{
+    margin: 100px 10px 0 55px;
+    width: 350px;
+    height: 250px;
+    padding: 10px 20px;
+    border-top-style: solid;
+    border-top-color: hsl(212, 86%, 64%);
+    border-radius: 10px;
+    border-width: 9px;
+    box-shadow:  3px 3px 5px 6px #ccc
+}
+
+#karma{
+    margin-top: 80px;
+    width: 350px;
+    height: 250px;
+    padding: 10px 20px;
+    border-top-style: solid;
+    border-top-color: hsl(34, 97%, 64%);
+    border-radius: 10px;
+    border-width: 9px;
+    box-shadow:  3px 3px 5px 6px #ccc
+}
+
+#team-karma{
+    padding: 10px 20px;
+    margin-left: 10px;
+}
+
+#team{
+    width: 350px;
+    height: 250px;
+    padding: 10px 20px;
+    border-top-style: solid;
+    border-top-color: hsl(0, 78%, 62%);
+    border-radius: 10px;
+    border-width: 9px;
+    box-shadow:  3px 3px 5px 6px #ccc
+}
+
+@media screen and (max-width: 800px){
+    #container{
+        font-family: "Poppins";
+        display: flex;
+        flex-direction: column;
+        width: auto;
+        height: auto;
+        padding: 20px 45px;
+        align-items: center;
+    }
+
+    #container2{
+        display: flex;
+        flex-direction: column;
+        margin-top: 100px;
+        height: auto;
+        width: auto;
+        padding: 0;
+        margin: auto;
+        align-items: center;
+    }
+
+    #team-karma{
+        margin-top: 50px;
+        margin-right: 10px;
+    }
+
+    #calculator{
+        margin-top: 50px;
+        margin-left: 0px;
+    }
+
+    #supervisor{
+        margin-top: 50px;
+        margin-left: 35px;
+    }
+}
